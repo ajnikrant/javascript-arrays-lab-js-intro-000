@@ -33,3 +33,7 @@ function prependKitten() {
   return ["Arnold", ...kittens];
 }
 console.log(prependKitten());
+
+function removeLastKitten() {
+  kittens.pop();
+}
