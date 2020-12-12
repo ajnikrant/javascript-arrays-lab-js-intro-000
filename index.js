@@ -37,4 +37,3 @@ console.log(prependKitten());
 function removeLastKitten() {
   kittens.slice(0,1);
 }
-console.log(kittens.slice(0,1));
